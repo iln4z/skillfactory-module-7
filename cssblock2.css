@@ -1,0 +1,111 @@
+p, li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.head {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+h1, h2 {
+  font-family: "Bree Serif", serif;
+  font-weight: 900;
+
+}
+
+
+body {
+  font-size: 19px;
+}
+header {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  padding: 20px; 
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+  border-bottom-style: groove;
+  border-color: rgb(78, 4, 148);
+}
+.glav1:hover { 
+  color: rgb(192, 8, 8); 
+}
+.glav2:hover { 
+  color: rgb(192, 8, 8); 
+}
+.glav3:hover {   
+  color: rgb(192, 8, 8); 
+}  
+
+
+main {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.hero {
+  display: flex;
+  width: 1000px;
+}
+
+.hero__img {
+  text-align: center;
+  background-color: rgb(87, 14, 136);
+  padding: 12px;
+  width: 450px;
+  margin-top: 10px;
+  
+}
+ 
+.hero__text {
+  margin-top: 10px;
+  justify-content: center;
+  align-items: start;
+  padding-left: 25px;
+}
+.contact {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  
+}
+.material-icons {
+  vertical-align: middle;
+  padding-bottom: 3px;
+}
+
+.name {
+  font-weight: bold;
+  color: #102158;
+  align-items: start;
+  padding-left: 25px;
+}
+
+.oglav {
+  font-size: 25px;
+  color: rgb(161, 31, 8);
+
+}
+a:hover 
+{ 
+  color: rgb(192, 8, 8); 
+}
+footer {
+  
+  margin: 0;
+  width: 100%;
+  
+  text-align: center;
+  border-top-style: groove;
+  border-color: rgb(78, 4, 148);
+  
+  
+}
